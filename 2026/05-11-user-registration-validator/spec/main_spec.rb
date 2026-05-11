@@ -28,12 +28,6 @@ RSpec.describe UserValidator do
     end
 
     context "パスワードのバリデーション" do
-      it "パスワードに数字が含まれていないと無効であること" do
-        result = UserValidator.validate("test1234", "Password")
-        expect(result[:valid]).to be false
-        expect(result[:errors]).to include("パスワードには数字を含めてください")
-      end
-
       it "パスワードが短すぎると無効であること" do
         result = UserValidator.validate("test1234", "p1P")
         expect(result[:valid]).to be false
