@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
+# 税率計算を考慮した計算を行うクラス
 class PriceCalculator
-  TAX_RATES = { normal: 0.10, reduced: 0.08 }
+  TAX_RATES = { normal: 0.10, reduced: 0.08 }.freeze
 
   def self.calculate(items)
     sub_total = 0
