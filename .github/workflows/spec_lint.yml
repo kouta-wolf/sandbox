@@ -23,6 +23,7 @@ jobs:
         run: |
           gem install rspec
           gem install rubocop
+          gem install faker
       
       - name: Run RuboCop (Lint)
         run: rubocop
