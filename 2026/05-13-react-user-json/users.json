@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "username": "バラキ",
+    "email": "user1@example.com",
+    "phone": "090-0000-1043",
+    "address": "架空県陽菜村"
+  },
+  {
+    "id": 2,
+    "username": "アヤメ",
+    "email": "user2@example.com",
+    "phone": "090-0000-4965",
+    "address": "架空県武田村"
+  },
+  {
+    "id": 3,
+    "username": "チュウシン",
+    "email": "user3@example.com",
+    "phone": "090-0000-8541",
+    "address": "架空県美咲市"
+  },
+  {
+    "id": 4,
+    "username": "アサキ",
+    "email": "user4@example.com",
+    "phone": "090-0000-9731",
+    "address": "架空県佐野村"
+  },
+  {
+    "id": 5,
+    "username": "志村ダンゾウ",
+    "email": "user5@example.com",
+    "phone": "090-0000-8867",
+    "address": "架空県大長谷川区"
+  },
+  {
+    "id": 6,
+    "username": "デイダラ",
+    "email": "user6@example.com",
+    "phone": "090-0000-9791",
+    "address": "架空県優区"
+  },
+  {
+    "id": 7,
+    "username": "天狼エンゾ",
+    "email": "user7@example.com",
+    "phone": "090-0000-6021",
+    "address": "架空県南菅原区"
+  },
+  {
+    "id": 8,
+    "username": "ダツジ",
+    "email": "user8@example.com",
+    "phone": "090-0000-3727",
+    "address": "架空県小宮崎市"
+  },
+  {
+    "id": 9,
+    "username": "緑青アオイ",
+    "email": "user9@example.com",
+    "phone": "090-0000-9910",
+    "address": "架空県中川区"
+  },
+  {
+    "id": 10,
+    "username": "アマチ",
+    "email": "user10@example.com",
+    "phone": "090-0000-2312",
+    "address": "架空県西森村"
+  },
+  {
+    "id": 11,
+    "username": "アゲハ",
+    "email": "user11@example.com",
+    "phone": "090-0000-6601",
+    "address": "架空県彩花町"
+  },
+  {
+    "id": 12,
+    "username": "アミ",
+    "email": "user12@example.com",
+    "phone": "090-0000-6535",
+    "address": "架空県藤原郡"
+  },
+  {
+    "id": 13,
+    "username": "青",
+    "email": "user13@example.com",
+    "phone": "090-0000-1587",
+    "address": "架空県菊地村"
+  },
+  {
+    "id": 14,
+    "username": "アシタバ",
+    "email": "user14@example.com",
+    "phone": "090-0000-9021",
+    "address": "架空県西千尋区"
+  },
+  {
+    "id": 15,
+    "username": "ダルイ",
+    "email": "user15@example.com",
+    "phone": "090-0000-9609",
+    "address": "架空県大結市"
+  },
+  {
+    "id": 16,
+    "username": "エビス",
+    "email": "user16@example.com",
+    "phone": "090-0000-1754",
+    "address": "架空県東谷口市"
+  },
+  {
+    "id": 17,
+    "username": "金色エトロ",
+    "email": "user17@example.com",
+    "phone": "090-0000-6422",
+    "address": "架空県中桜市"
+  },
+  {
+    "id": 18,
+    "username": "地陸",
+    "email": "user18@example.com",
+    "phone": "090-0000-3677",
+    "address": "架空県南恵区"
+  },
+  {
+    "id": 19,
+    "username": "犬塚アキタ",
+    "email": "user19@example.com",
+    "phone": "090-0000-9460",
+    "address": "架空県美穂村"
+  },
+  {
+    "id": 20,
+    "username": "アマド",
+    "email": "user20@example.com",
+    "phone": "090-0000-6262",
+    "address": "架空県新高田区"
+  },
+  {
+    "id": 21,
+    "username": "ボロ",
+    "email": "user21@example.com",
+    "phone": "090-0000-2868",
+    "address": "架空県東山本市"
+  },
+  {
+    "id": 22,
+    "username": "ダジム",
+    "email": "user22@example.com",
+    "phone": "090-0000-7684",
+    "address": "架空県結村"
+  },
+  {
+    "id": 23,
+    "username": "エブ",
+    "email": "user23@example.com",
+    "phone": "090-0000-2031",
+    "address": "架空県西斉藤区"
+  },
+  {
+    "id": 24,
+    "username": "チチアツ",
+    "email": "user24@example.com",
+    "phone": "090-0000-7994",
+    "address": "架空県一輝町"
+  },
+  {
+    "id": 25,
+    "username": "アメノ",
+    "email": "user25@example.com",
+    "phone": "090-0000-1561",
+    "address": "架空県大佐藤村"
+  },
+  {
+    "id": 26,
+    "username": "飴雪",
+    "email": "user26@example.com",
+    "phone": "090-0000-3129",
+    "address": "架空県小島市"
+  },
+  {
+    "id": 27,
+    "username": "鷲の仮面の暗部",
+    "email": "user27@example.com",
+    "phone": "090-0000-6136",
+    "address": "架空県東加藤区"
+  },
+  {
+    "id": 28,
+    "username": "獏",
+    "email": "user28@example.com",
+    "phone": "090-0000-3672",
+    "address": "架空県陸町"
+  },
+  {
+    "id": 29,
+    "username": "秋道チョウチョウ",
+    "email": "user29@example.com",
+    "phone": "090-0000-8422",
+    "address": "架空県真央郡"
+  },
+  {
+    "id": 30,
+    "username": "蜂使い",
+    "email": "user30@example.com",
+    "phone": "090-0000-5491",
+    "address": "架空県山本町"
+  },
+  {
+    "id": 31,
+    "username": "秋道チョウベエ",
+    "email": "user31@example.com",
+    "phone": "090-0000-5540",
+    "address": "架空県美羽町"
+  },
+  {
+    "id": 32,
+    "username": "分福",
+    "email": "user32@example.com",
+    "phone": "090-0000-9661",
+    "address": "架空県遠藤市"
+  },
+  {
+    "id": 33,
+    "username": "貝螺王",
+    "email": "user33@example.com",
+    "phone": "090-0000-2793",
+    "address": "架空県新田村村"
+  },
+  {
+    "id": 34,
+    "username": "龍堂院アギラ",
+    "email": "user34@example.com",
+    "phone": "090-0000-6169",
+    "address": "架空県東大地郡"
+  },
+  {
+    "id": 35,
+    "username": "アマヨ",
+    "email": "user35@example.com",
+    "phone": "090-0000-3179",
+    "address": "架空県小斉藤町"
+  },
+  {
+    "id": 36,
+    "username": "大筒木アシュラ",
+    "email": "user36@example.com",
+    "phone": "090-0000-6093",
+    "address": "架空県内田区"
+  },
+  {
+    "id": 37,
+    "username": "暗部の司令官",
+    "email": "user37@example.com",
+    "phone": "090-0000-8023",
+    "address": "架空県小鈴木市"
+  },
+  {
+    "id": 38,
+    "username": "外道魔像",
+    "email": "user38@example.com",
+    "phone": "090-0000-5015",
+    "address": "架空県新未来市"
+  },
+  {
+    "id": 39,
+    "username": "アマイ",
+    "email": "user39@example.com",
+    "phone": "090-0000-9872",
+    "address": "架空県誠郡"
+  },
+  {
+    "id": 40,
+    "username": "御屋城エン",
+    "email": "user40@example.com",
+    "phone": "090-0000-5835",
+    "address": "架空県杏村"
+  },
+  {
+    "id": 41,
+    "username": "朱丸",
+    "email": "user41@example.com",
+    "phone": "090-0000-7775",
+    "address": "架空県西小野町"
+  },
+  {
+    "id": 42,
+    "username": "畜生道",
+    "email": "user42@example.com",
+    "phone": "090-0000-3818",
+    "address": "架空県中小島区"
+  },
+  {
+    "id": 43,
+    "username": "ダイチ",
+    "email": "user43@example.com",
+    "phone": "090-0000-7121",
+    "address": "架空県小陽子区"
+  },
+  {
+    "id": 44,
+    "username": "秋道チョウザ",
+    "email": "user44@example.com",
+    "phone": "090-0000-8363",
+    "address": "架空県南松田郡"
+  },
+  {
+    "id": 45,
+    "username": "童芯",
+    "email": "user45@example.com",
+    "phone": "090-0000-7382",
+    "address": "架空県小佐々木郡"
+  },
+  {
+    "id": 46,
+    "username": "猿羅",
+    "email": "user46@example.com",
+    "phone": "090-0000-2461",
+    "address": "架空県南柴田村"
+  },
+  {
+    "id": 47,
+    "username": "アカネの父",
+    "email": "user47@example.com",
+    "phone": "090-0000-6780",
+    "address": "架空県清水区"
+  },
+  {
+    "id": 48,
+    "username": "チヨマツ",
+    "email": "user48@example.com",
+    "phone": "090-0000-2427",
+    "address": "架空県南佐々木郡"
+  },
+  {
+    "id": 49,
+    "username": "あおい（ゲーム）",
+    "email": "user49@example.com",
+    "phone": "090-0000-3551",
+    "address": "架空県南亮太区"
+  },
+  {
+    "id": 50,
+    "username": "イノシシの仮面の暗部",
+    "email": "user50@example.com",
+    "phone": "090-0000-2616",
+    "address": "架空県田中村"
+  }
+]
