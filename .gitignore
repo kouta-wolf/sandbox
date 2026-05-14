@@ -1,0 +1,5 @@
+# React/Node related
+node_modules/
+dist/
+.env
+.env*.local
