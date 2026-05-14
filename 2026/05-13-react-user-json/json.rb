@@ -1,5 +1,5 @@
 require "json"
-require_relative "data_generator"
+require_relative "data_generator_json"
 
 # config
 NUMBER = 50
