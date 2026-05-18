@@ -2,9 +2,9 @@
 
 RSpec.describe 'JSON generation' do
   it '50人分のデータが入ったJSONファイルを出力すること' do
-    load './2026/05-13-react-user-json/json.rb'
+    load File.expand_path('../json.rb', __dir__)
 
-    file_path = './2026/05-13-react-user-json/users.json'
+    file_path = File.expand_path('../users.json', __dir__)
     expect(File.exist?(file_path)).to be true
 
     json_data = JSON.parse(File.read(file_path))
