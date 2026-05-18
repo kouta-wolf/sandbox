@@ -1,5 +1,7 @@
-require "json"
-require_relative "data_generator_json"
+# frozen_string_literal: true
+
+require 'json'
+require_relative 'data_generator_json'
 
 # config
 NUMBER = 50
