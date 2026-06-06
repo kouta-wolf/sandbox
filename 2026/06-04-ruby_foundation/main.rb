@@ -1,6 +1,12 @@
-# 全てのデータはオブジェクトであり、オブジェクトはクラスを知っている
-p 1.is_a?(Object) # => true
+# 全てのデータはオブジェクトであり、クラスは遡るとObjectクラスに繋がる
 p 1.class # => Integer
+p 1.is_a?(Object) # => true
+p 1.class.ancestors # => [Integer, Numeric, Comparable, Object, Kernel, BasicObject]
+
+p "hello".class # => String
+p "hello".is_a?(Object) # => true
+p "hello".class.ancestors # => [String, Comparable, Object, Kernel, BasicObject]
+
 
 # クラスもオブジェクトであり、クラスはClassクラスを知っている
 p Integer.is_a?(Object) # => true
