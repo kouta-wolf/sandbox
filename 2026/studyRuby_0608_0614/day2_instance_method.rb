@@ -30,10 +30,9 @@ class Character
   # take_damage(amount) を追加する
   def take_damage(amount)
     @hp -= amount
-    if @hp < 0
-      @hp = 0
-      puts "#{@name}は倒れた"
-    end
+
+    puts "#{@name}は倒れた" if @hp < 0 && @hp = 0
+    
     puts "#{@name}のHP: #{@hp}"
   end
 
