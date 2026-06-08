@@ -29,14 +29,22 @@ class Character
 
   # take_damage(amount) を追加する
   def take_damage(amount)
-    @hp -= amount
+    # initializeによって@nameの@hpはボブのhpになる
+    # その上で-=によって@hp = @hp - amountを省略できる
+    # やってることは引数分のダメージをマイナスして@hpに代入
+    @hp -= amount    
 
+    # 後置ifにすることで可読性の向上を狙う…が読みづらい？
+    # やってることはhpが0以下ならhp=0にするという処理にしつつ
+    # 文字を出力する…うーん…個人的にやることは2つあるからきついのかな
     puts "#{@name}は倒れた" if @hp < 0 && @hp = 0
-    
-    puts "#{@name}のHP: #{@hp}"
+
+    # ボブが倒れてないなら残りHPを表示するという方法を取った
+    puts "#{@name}のHP: #{@hp}" if @hp > 0
   end
 
   # heal(amount) を追加する
+  # 回復するだけなので出力には反映しない。
   def heal(amount)
     @hp += amount
   end
