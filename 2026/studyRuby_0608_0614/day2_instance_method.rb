@@ -19,6 +19,7 @@
 # =============================================================
 
 class Character
+  # 昨日の復習 initializeで初期化、attr_readerで外から呼び出し
   attr_reader :name, :hp
 
   def initialize(name, hp)
@@ -27,8 +28,19 @@ class Character
   end
 
   # take_damage(amount) を追加する
+  def take_damage(amount)
+    @hp -= amount
+    if @hp < 0
+      @hp = 0
+      puts "#{@name}は倒れた"
+    end
+    puts "#{@name}のHP: #{@hp}"
+  end
 
   # heal(amount) を追加する
+  def heal(amount)
+    @hp += amount
+  end
 end
 
 hero = Character.new("ボブ", 30)
