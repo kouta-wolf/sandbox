@@ -33,8 +33,32 @@ class Character
 end
 
 # Warrior クラスを定義する
+# 子クラス < 親クラスで継承が完了される。
+# もし別ファイルならrequire_relativeで指定する。
+class Warrior < Character
+  # 引数を増やしているためオーバーライドする形で対応する
+  def initialize(name, hp, mp, weapon)
+    # superとすることで同名のメソッドを呼び出す
+    super(name, hp, mp)
+    @weapon = weapon
+  end
 
+  def attack
+    "#{@name}は#{@weapon}で攻撃！"
+  end
+end
 # Mage クラスを定義する
+class Mage < Character
+  def initialize(name, hp, mp, magic)
+    super(name, hp, mp)
+    @magic = magic
+  end
+
+  def cast
+    @mp -= 10
+    "#{@name}は#{@magic}を唱えた！MP-10"
+  end
+end
 
 w = Warrior.new("アリス", 120, 20, "ブロードソード")
 m = Mage.new("ボブ", 60, 80, "ファイアボール")
