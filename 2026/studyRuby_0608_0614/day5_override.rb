@@ -39,7 +39,11 @@ class Warrior < Character
     "#{name}は#{@weapon}で攻撃！"
   end
 
-  # status をオーバーライドする
+  def status
+    # 親クラスと同名のメソッドは引数を入れずにsuperする場合はそのまま親のメソッドを引き継ぐことができる
+    # 新規メソッド追加の場合は上のinitializeのように引数つきsuperで一部を引き継ぐことができる。また処理をさらに追加することができる
+    "#{super} [武器:#{@weapon}]"
+  end
 end
 
 class Mage < Character
@@ -53,7 +57,9 @@ class Mage < Character
     "#{name}は#{@spell}を唱えた！MP-10"
   end
 
-  # status をオーバーライドする
+  def status
+    "#{super} [呪文:#{@spell}]"
+  end
 end
 
 w = Warrior.new("アリス", 120, 20, "ブロードソード")
