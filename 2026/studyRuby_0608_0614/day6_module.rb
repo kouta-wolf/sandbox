@@ -11,9 +11,18 @@
 #   - 継承とmixinを使い分ける基準を自分の言葉で言えるか
 # =============================================================
 
+# includeはインスタンスメソッドとして読み込む
+# extendはクラスメソッドとして読み込む
+
+# これらの機能は親子関係ではないためSuperは出来ない
+# 継承は行わずに必要な機能だけ追加が可能
+
+# Rubyにおいては1つのクラスしか継承することができない。そのため、mixinを使うことで色んなクラスから流用することが可能になり、名称衝突を避けたりDRY原則が機能したりする
+
 module Loggable
-  # log(message) メソッドを定義する
-  # "[LOG] #{self.class.name}(#{name}): #{message}" を puts する
+  def log(message)
+    puts "[LOG] #{self.class.name}(#{name}): #{message}"
+  end
 end
 
 class Character
