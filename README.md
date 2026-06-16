@@ -8,19 +8,26 @@
 - 体系的な知識管理: 概念的な解説や深い理論は個人用のObsidianに集約しています。そのためここでは「動く成果物」と「実装上の気づき」に特化して管理しています。
 
 ## 📁 ディレクトリ構成例
-`年 / 月-日-トピック名 /` という形式で管理しています。
+基本は `年 / 月-日-トピック名 /` という形式で管理していますが、週単位でまとめて課題に取り組む場合は `年 / studyRuby_MMDD_MMDD /` の形式も使っています。
 
 ```text
 .
 ├── 2026/
-│   ├── 05-10-ruby-logic-test/       # Rubyのロジック検証
-│   │   ├── README.md               # 目的・学びの記録
-│   │   └── main.rb                 # ソースコード
-│   └── 05-12-docker-postgres-init/  # Docker環境構築の練習
-│       ├── README.md
-│       └── docker-compose.yml
+│   ├── 05-10-ruby-logic-test/         # Rubyのロジック検証（単発）
+│   │   ├── README.md                 # 目的・学びの記録
+│   │   └── main.rb                   # ソースコード
+│   ├── 05-12-docker-postgres-init/    # Docker環境構築の練習（単発）
+│   │   ├── README.md
+│   │   └── docker-compose.yml
+│   └── studyRuby_0616_0622/           # 週次のRuby課題（Day1〜7）
+│       ├── day1_array_basics.rb
+│       ├── day2_each_map.rb
+│       └── ...
 └── README.md (This file)
 ```
+
+- 単発の検証・練習: `月-日-トピック名/` ディレクトリに `README.md` を置き、目的や学びを記録
+- 週次の課題シリーズ: `studyRuby_MMDD_MMDD/` ディレクトリに `dayN_テーマ.rb` を並べ、1日1ファイルで進める（READMEは置かず、コード内コメントに気づきを残す運用）
 
 ## 🛠 興味のある学習テーマ
 - バックエンド (Ruby / Ruby on Rails)
