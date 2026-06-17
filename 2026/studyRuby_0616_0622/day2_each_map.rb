@@ -27,9 +27,27 @@ items  = ["剣", "盾", "ポーション", "エリクサー"]
 prices = [100, 150, 50, 300]
 
 # 1. each で表示
-
+# ``ではなくて""だったっけ…``はjavascriptだったっけ…
+items.each do |i|
+  puts "・#{i}"
+end
 # 2. map で upcase 変換
+# ところでこれだとupcaseが効いているか分からなくない？仕方ないので新たに配列を作る
+# mapだと新しい配列を作る感じ。ブロックで処理する
+jobs = ["warrior", "mage", "monk", "priest"]
+upcase_jobs = jobs.map { |j| j.upcase }
+
+p upcase_jobs
+p jobs
 
 # 3. map で1.1倍
+# ただこのままだと非常に見づらいため小数点をどうにかする。roundを使って小数点第二位を四捨五入
+diameter_prices = prices.map { |p| (p * 1.1).round(2) }
+p diameter_prices
 
 # 4. each_with_index で番号付き表示
+# 2つの配列をあわせるには…？重ねるとか…？
+# 分からないのでAIに確認
+items.each_with_index do |item, i|
+  puts "#{i}: #{item}(#{prices[i]}G)"
+end
